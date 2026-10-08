@@ -1,0 +1,15 @@
+# started on Thu Oct  8 13:59:31 2026
+
+
+ Performance counter stats for './miniMD_openmpi -i in.lj.miniMD':
+
+       34925533327      cycles                                                      
+       29249849994      instructions              #    0.84  insn per cycle         
+          86227981      cache-misses                                                
+
+      14.580787405 seconds time elapsed
+
+      13.177770000 seconds user
+       0.259365000 seconds sys
+
+

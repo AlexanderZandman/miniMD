@@ -1,0 +1,298 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 85.54     11.17    11.17      101   110.62   110.62  ForceLJ::compute(Atom&, Neighbor&, Comm&, int)
+ 12.02     12.74     1.57        6   261.72   261.72  Neighbor::build(Atom&)
+  0.61     12.82     0.08      100     0.80     0.80  Integrate::initialIntegrate()
+  0.54     12.89     0.07                             Integrate::finalIntegrate()
+  0.23     12.92     0.03      570     0.05     0.05  Atom::unpack_comm(int, int, double*)
+  0.23     12.95     0.03                             __aarch64_ldadd4_sync
+  0.15     12.97     0.02      612     0.03     0.03  Atom::pack_reverse(int, int, double*)
+  0.15     12.99     0.02      612     0.03     0.03  Atom::unpack_reverse(int, int*, double*)
+  0.15     13.01     0.02        5     4.00     4.00  Atom::sort(Neighbor&)
+  0.15     13.03     0.02        5     4.00     4.00  Comm::borders(Atom&)
+  0.08     13.04     0.01      570     0.02     0.02  Atom::pack_comm(int, int*, double*, int*)
+  0.08     13.05     0.01        6     1.67     1.67  Atom::pbc()
+  0.08     13.06     0.01                             create_atoms(Atom&, int, int, int, double)
+  0.00     13.06     0.00   285585     0.00     0.00  Atom::pack_border(int, double*, int*)
+  0.00     13.06     0.00   285585     0.00     0.00  Atom::unpack_border(int, double*)
+  0.00     13.06     0.00   131072     0.00     0.00  Atom::addatom(double, double, double, double, double, double)
+  0.00     13.06     0.00      305     0.00     0.00  Timer::stamp(int)
+  0.00     13.06     0.00      101     0.00     0.00  Thermo::compute(int, Atom&, Neighbor&, Force*, Timer&, Comm&)
+  0.00     13.06     0.00      100     0.00     0.40  Comm::reverse_communicate(Atom&)
+  0.00     13.06     0.00      100     0.00     0.00  Timer::stamp()
+  0.00     13.06     0.00       95     0.00     0.42  Comm::communicate(Atom&)
+  0.00     13.06     0.00       11     0.00     0.00  Neighbor::binatoms(Atom&, int)
+  0.00     13.06     0.00        9     0.00     0.00  Atom::growarray()
+  0.00     13.06     0.00        5     0.00     2.00  Comm::exchange(Atom&)
+  0.00     13.06     0.00        5     0.00     0.00  Timer::stamp_extra_stop(int)
+  0.00     13.06     0.00        5     0.00     0.00  Timer::stamp_extra_start()
+  0.00     13.06     0.00        3     0.00     0.00  Thermo::temperature(Atom&)
+  0.00     13.06     0.00        2     0.00     0.00  Timer::barrier_stop(int)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2024 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.08% of 13.06 seconds
+
+index % time    self  children    called     name
+                                 100             Integrate::finalIntegrate() [1]
+[1]     96.8    0.07   12.58       0+100     Integrate::finalIntegrate() [1]
+               11.06    0.00     100/101         ForceLJ::compute(Atom&, Neighbor&, Comm&, int) [2]
+                1.31    0.00       5/6           Neighbor::build(Atom&) [3]
+                0.08    0.00     100/100         Integrate::initialIntegrate() [5]
+                0.00    0.04     100/100         Comm::reverse_communicate(Atom&) [6]
+                0.00    0.04      95/95          Comm::communicate(Atom&) [7]
+                0.02    0.00       5/5           Atom::sort(Neighbor&) [12]
+                0.02    0.00       5/5           Comm::borders(Atom&) [13]
+                0.00    0.01       5/5           Comm::exchange(Atom&) [16]
+                0.00    0.00     305/305         Timer::stamp(int) [29]
+                0.00    0.00     100/101         Thermo::compute(int, Atom&, Neighbor&, Force*, Timer&, Comm&) [30]
+                0.00    0.00     100/100         Timer::stamp() [31]
+                0.00    0.00       5/5           Timer::stamp_extra_start() [35]
+                0.00    0.00       5/5           Timer::stamp_extra_stop(int) [34]
+                                 100             Integrate::finalIntegrate() [1]
+-----------------------------------------------
+                0.11    0.00       1/101         frame_dummy [4]
+               11.06    0.00     100/101         Integrate::finalIntegrate() [1]
+[2]     85.5   11.17    0.00     101         ForceLJ::compute(Atom&, Neighbor&, Comm&, int) [2]
+-----------------------------------------------
+                0.26    0.00       1/6           frame_dummy [4]
+                1.31    0.00       5/6           Integrate::finalIntegrate() [1]
+[3]     12.0    1.57    0.00       6         Neighbor::build(Atom&) [3]
+                0.00    0.00       6/11          Neighbor::binatoms(Atom&, int) [32]
+-----------------------------------------------
+                                                 <spontaneous>
+[4]      2.9    0.00    0.37                 frame_dummy [4]
+                0.26    0.00       1/6           Neighbor::build(Atom&) [3]
+                0.11    0.00       1/101         ForceLJ::compute(Atom&, Neighbor&, Comm&, int) [2]
+                0.00    0.00       1/101         Thermo::compute(int, Atom&, Neighbor&, Force*, Timer&, Comm&) [30]
+-----------------------------------------------
+                0.08    0.00     100/100         Integrate::finalIntegrate() [1]
+[5]      0.6    0.08    0.00     100         Integrate::initialIntegrate() [5]
+-----------------------------------------------
+                0.00    0.04     100/100         Integrate::finalIntegrate() [1]
+[6]      0.3    0.00    0.04     100         Comm::reverse_communicate(Atom&) [6]
+                0.02    0.00     612/612         Atom::pack_reverse(int, int, double*) [10]
+                0.02    0.00     612/612         Atom::unpack_reverse(int, int*, double*) [11]
+-----------------------------------------------
+                0.00    0.04      95/95          Integrate::finalIntegrate() [1]
+[7]      0.3    0.00    0.04      95         Comm::communicate(Atom&) [7]
+                0.03    0.00     570/570         Atom::unpack_comm(int, int, double*) [8]
+                0.01    0.00     570/570         Atom::pack_comm(int, int*, double*, int*) [14]
+-----------------------------------------------
+                0.03    0.00     570/570         Comm::communicate(Atom&) [7]
+[8]      0.2    0.03    0.00     570         Atom::unpack_comm(int, int, double*) [8]
+-----------------------------------------------
+                                                 <spontaneous>
+[9]      0.2    0.03    0.00                 __aarch64_ldadd4_sync [9]
+-----------------------------------------------
+                0.02    0.00     612/612         Comm::reverse_communicate(Atom&) [6]
+[10]     0.2    0.02    0.00     612         Atom::pack_reverse(int, int, double*) [10]
+-----------------------------------------------
+                0.02    0.00     612/612         Comm::reverse_communicate(Atom&) [6]
+[11]     0.2    0.02    0.00     612         Atom::unpack_reverse(int, int*, double*) [11]
+-----------------------------------------------
+                0.02    0.00       5/5           Integrate::finalIntegrate() [1]
+[12]     0.2    0.02    0.00       5         Atom::sort(Neighbor&) [12]
+                0.00    0.00       5/11          Neighbor::binatoms(Atom&, int) [32]
+-----------------------------------------------
+                0.02    0.00       5/5           Integrate::finalIntegrate() [1]
+[13]     0.2    0.02    0.00       5         Comm::borders(Atom&) [13]
+                0.00    0.00  285585/285585      Atom::pack_border(int, double*, int*) [26]
+                0.00    0.00  285585/285585      Atom::unpack_border(int, double*) [27]
+-----------------------------------------------
+                0.01    0.00     570/570         Comm::communicate(Atom&) [7]
+[14]     0.1    0.01    0.00     570         Atom::pack_comm(int, int*, double*, int*) [14]
+-----------------------------------------------
+                0.01    0.00       6/6           Comm::exchange(Atom&) [16]
+[15]     0.1    0.01    0.00       6         Atom::pbc() [15]
+-----------------------------------------------
+                0.00    0.01       5/5           Integrate::finalIntegrate() [1]
+[16]     0.1    0.00    0.01       5         Comm::exchange(Atom&) [16]
+                0.01    0.00       6/6           Atom::pbc() [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[17]     0.1    0.01    0.00                 create_atoms(Atom&, int, int, int, double) [17]
+                0.00    0.00  131072/131072      Atom::addatom(double, double, double, double, double, double) [28]
+-----------------------------------------------
+                0.00    0.00  285585/285585      Comm::borders(Atom&) [13]
+[26]     0.0    0.00    0.00  285585         Atom::pack_border(int, double*, int*) [26]
+-----------------------------------------------
+                0.00    0.00  285585/285585      Comm::borders(Atom&) [13]
+[27]     0.0    0.00    0.00  285585         Atom::unpack_border(int, double*) [27]
+                0.00    0.00       2/9           Atom::growarray() [33]
+-----------------------------------------------
+                0.00    0.00  131072/131072      create_atoms(Atom&, int, int, int, double) [17]
+[28]     0.0    0.00    0.00  131072         Atom::addatom(double, double, double, double, double, double) [28]
+                0.00    0.00       7/9           Atom::growarray() [33]
+-----------------------------------------------
+                0.00    0.00     305/305         Integrate::finalIntegrate() [1]
+[29]     0.0    0.00    0.00     305         Timer::stamp(int) [29]
+-----------------------------------------------
+                0.00    0.00       1/101         frame_dummy [4]
+                0.00    0.00     100/101         Integrate::finalIntegrate() [1]
+[30]     0.0    0.00    0.00     101         Thermo::compute(int, Atom&, Neighbor&, Force*, Timer&, Comm&) [30]
+                0.00    0.00       2/3           Thermo::temperature(Atom&) [36]
+                0.00    0.00       2/2           Timer::barrier_stop(int) [37]
+-----------------------------------------------
+                0.00    0.00     100/100         Integrate::finalIntegrate() [1]
+[31]     0.0    0.00    0.00     100         Timer::stamp() [31]
+-----------------------------------------------
+                0.00    0.00       5/11          Atom::sort(Neighbor&) [12]
+                0.00    0.00       6/11          Neighbor::build(Atom&) [3]
+[32]     0.0    0.00    0.00      11         Neighbor::binatoms(Atom&, int) [32]
+-----------------------------------------------
+                0.00    0.00       2/9           Atom::unpack_border(int, double*) [27]
+                0.00    0.00       7/9           Atom::addatom(double, double, double, double, double, double) [28]
+[33]     0.0    0.00    0.00       9         Atom::growarray() [33]
+-----------------------------------------------
+                0.00    0.00       5/5           Integrate::finalIntegrate() [1]
+[34]     0.0    0.00    0.00       5         Timer::stamp_extra_stop(int) [34]
+-----------------------------------------------
+                0.00    0.00       5/5           Integrate::finalIntegrate() [1]
+[35]     0.0    0.00    0.00       5         Timer::stamp_extra_start() [35]
+-----------------------------------------------
+                0.00    0.00       1/3           create_velocity(double, Atom&, Thermo&) [39]
+                0.00    0.00       2/3           Thermo::compute(int, Atom&, Neighbor&, Force*, Timer&, Comm&) [30]
+[36]     0.0    0.00    0.00       3         Thermo::temperature(Atom&) [36]
+-----------------------------------------------
+                0.00    0.00       2/2           Thermo::compute(int, Atom&, Neighbor&, Force*, Timer&, Comm&) [30]
+[37]     0.0    0.00    0.00       2         Timer::barrier_stop(int) [37]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2024 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [17] create_atoms(Atom&, int, int, int, double) [14] Atom::pack_comm(int, int*, double*, int*) [36] Thermo::temperature(Atom&)
+  [26] Atom::pack_border(int, double*, int*) [7] Comm::communicate(Atom&) [30] Thermo::compute(int, Atom&, Neighbor&, Force*, Timer&, Comm&)
+   [8] Atom::unpack_comm(int, int, double*) [6] Comm::reverse_communicate(Atom&) [2] ForceLJ::compute(Atom&, Neighbor&, Comm&, int)
+  [10] Atom::pack_reverse(int, int, double*) [13] Comm::borders(Atom&) [3] Neighbor::build(Atom&)
+  [27] Atom::unpack_border(int, double*) [16] Comm::exchange(Atom&) [32] Neighbor::binatoms(Atom&, int)
+  [11] Atom::unpack_reverse(int, int*, double*) [37] Timer::barrier_stop(int) [1] Integrate::finalIntegrate()
+  [15] Atom::pbc()            [34] Timer::stamp_extra_stop(int) [5] Integrate::initialIntegrate()
+  [12] Atom::sort(Neighbor&)  [35] Timer::stamp_extra_start() [9] __aarch64_ldadd4_sync
+  [28] Atom::addatom(double, double, double, double, double, double) [29] Timer::stamp(int)
+  [33] Atom::growarray()      [31] Timer::stamp()
