@@ -1,0 +1,53 @@
+[1792089562.131090] [dev:2166420:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1792089562.131500] [dev:2166420:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1792089562.131600] [dev:2166420:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1792089562.133423] [dev:2166413:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1792089562.133833] [dev:2166413:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1792089562.133928] [dev:2166413:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1792089562.151275] [dev:2166417:0]        ib_iface.c:1090 UCX  ERROR iface=0x16c5e870: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1792089562.152158] [dev:2166416:0]        ib_iface.c:1090 UCX  ERROR iface=0x22dde940: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1792089562.153084] [dev:2166417:0]         ud_mlx5.c:935  UCX  ERROR md=0x1695a490: failed to create UD QP TX wr:128 sge:2 inl:0 RX wr:128 sge:1: Cannot allocate memory
+[1792089562.153614] [dev:2166416:0]         ud_mlx5.c:935  UCX  ERROR md=0x22adaee0: failed to create UD QP TX wr:128 sge:2 inl:0 RX wr:128 sge:1: Cannot allocate memory
+[1792089562.154245] [dev:2166407:0]        ib_iface.c:1090 UCX  ERROR iface=0xd84ebb0: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1792089562.155617] [dev:2166407:0]         ud_mlx5.c:935  UCX  ERROR md=0xd4fc520: failed to create UD QP TX wr:128 sge:2 inl:0 RX wr:128 sge:1: Cannot allocate memory
+# Create System:
+# Done .... 
+# miniMD-Reference 2.0 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 64
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 256000
+	# Atom types: 4
+	# System size: 67.18 67.18 67.18 (unit cells: 40 40 40)
+	# Density: 0.844200
+	# Force cutoff: 2.500000
+	# Timestep size: 0.005000
+# Technical Settings: 
+	# Neigh cutoff: 2.800000
+	# Half neighborlists: 1
+	# Neighbor bins: 33 33 33
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+# Starting dynamics ...
+# Timestep T U P Time
+0 1.440000e+00 -6.773368e+00 -5.019674e+00  0.000
+100 7.017854e-01 -5.671670e+00 7.172867e-01  0.516
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natoms t_total t_force t_neigh t_comm t_other performance perf/thread grep_string t_extra
+64 1 100 256000 0.516477 0.341758 0.038541 0.129223 0.006955 49566626.016225 774478.531504 PERF_SUMMARY 0.006519
+
+

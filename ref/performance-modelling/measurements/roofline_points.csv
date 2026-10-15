@@ -1,0 +1,5 @@
+label,roofs,AI_low,AI_high,gflops,source
+1rank_small,core,0.31,3.2,1.13,analytical range (no counters)
+1rank_large,core,0.31,3.2,0.94,analytical range (no counters)
+64rank_large,socket1,0.54,3.2,61.0,lower bound = gflops/BW (on roof by construction); upper analytical
+baseline_128rank,node2,0.95,3.2,117,lower bound from calibrated counters; upper analytical

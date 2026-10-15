@@ -1,0 +1,115 @@
+[1792090286.952376] [dev:2168110:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1792090286.952861] [dev:2168110:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1792090286.952959] [dev:2168110:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1792090286.956213] [dev:2168111:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1792090286.956748] [dev:2168111:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1792090286.956841] [dev:2168111:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1792090286.976546] [dev:2168100:0]        ib_iface.c:1090 UCX  ERROR iface=0x29b4e6d0: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1792090286.978171] [dev:2168100:0]         ud_mlx5.c:935  UCX  ERROR md=0x2984af50: failed to create UD QP TX wr:128 sge:2 inl:0 RX wr:128 sge:1: Cannot allocate memory
+[1792090286.979759] [dev:2168112:0]        ib_iface.c:1090 UCX  ERROR iface=0x15b8d570: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1792090286.981067] [dev:2168112:0]         ud_mlx5.c:935  UCX  ERROR md=0x15b8af50: failed to create UD QP TX wr:128 sge:2 inl:0 RX wr:128 sge:1: Cannot allocate memory
+# Create System:
+# Done .... 
+# miniMD-Reference 2.0 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 64
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 256000
+	# Atom types: 4
+	# System size: 67.18 67.18 67.18 (unit cells: 40 40 40)
+	# Density: 0.844200
+	# Force cutoff: 2.500000
+	# Timestep size: 0.005000
+# Technical Settings: 
+	# Neigh cutoff: 2.800000
+	# Half neighborlists: 1
+	# Neighbor bins: 33 33 33
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+# Starting dynamics ...
+# Timestep T U P Time
+0 1.440000e+00 -6.773368e+00 -5.019674e+00  0.000
+100 7.017854e-01 -5.671670e+00 7.172867e-01  0.460
+PAIRCOUNT pairs 10900305 entries 15394808
+PAIRCOUNT pairs 10929979 entries 15418144
+PAIRCOUNT pairs 10864934 entries 15286036
+PAIRCOUNT pairs 11050744 entries 15611070
+PAIRCOUNT pairs 10847936 entries 15256632
+PAIRCOUNT pairs 10932769 entries 15410252
+PAIRCOUNT pairs 10808601 entries 15207640
+PAIRCOUNT pairs 10864384 entries 15290200
+PAIRCOUNT pairs 10921553 entries 15430236
+PAIRCOUNT pairs 11161794 entries 15767060
+PAIRCOUNT pairs 11352615 entries 15999032
+PAIRCOUNT pairs 11103975 entries 15657546
+PAIRCOUNT pairs 10862279 entries 15242398
+PAIRCOUNT pairs 11055981 entries 15514132
+PAIRCOUNT pairs 10805929 entries 15176206
+PAIRCOUNT pairs 10975097 entries 15464676
+PAIRCOUNT pairs 10870421 entries 15275692
+PAIRCOUNT pairs 11038686 entries 15521538
+PAIRCOUNT pairs 11029594 entries 15486112
+PAIRCOUNT pairs 11044800 entries 15539232
+PAIRCOUNT pairs 10876427 entries 15244034
+PAIRCOUNT pairs 11169064 entries 15699150
+PAIRCOUNT pairs 10922677 entries 15388310
+PAIRCOUNT pairs 10950186 entries 15386780
+PAIRCOUNT pairs 11376996 entries 15967434
+PAIRCOUNT pairs 11204963 entries 15784628
+PAIRCOUNT pairs 11072926 entries 15604094
+PAIRCOUNT pairs 11110078 entries 15602114
+PAIRCOUNT pairs 10919785 entries 15344644
+PAIRCOUNT pairs 10946418 entries 15451414
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natoms t_total t_force t_neigh t_comm t_other performance perf/thread grep_string t_extra
+64 1 100 256000 0.459574 0.341303 0.038277 0.072437 0.007558 55703755.833135 870371.184893 PERF_SUMMARY 0.006653
+
+
+PAIRCOUNT pairs 11110280 entries 15615772
+PAIRCOUNT pairs 11138234 entries 15697332
+PAIRCOUNT pairs 10901409 entries 15376124
+PAIRCOUNT pairs 10995940 entries 15507276
+PAIRCOUNT pairs 11116486 entries 15657084
+PAIRCOUNT pairs 10885688 entries 15309462
+PAIRCOUNT pairs 10877721 entries 15338704
+PAIRCOUNT pairs 10863885 entries 15323248
+PAIRCOUNT pairs 10885026 entries 15380744
+PAIRCOUNT pairs 11301649 entries 15903984
+PAIRCOUNT pairs 10864807 entries 15279730
+PAIRCOUNT pairs 11341193 entries 15976126
+PAIRCOUNT pairs 11364491 entries 16018434
+PAIRCOUNT pairs 11005253 entries 15486288
+PAIRCOUNT pairs 11114690 entries 15616392
+PAIRCOUNT pairs 11008754 entries 15483246
+PAIRCOUNT pairs 11190791 entries 15748448
+PAIRCOUNT pairs 11298823 entries 15893876
+PAIRCOUNT pairs 11113000 entries 15679386
+PAIRCOUNT pairs 11077873 entries 15616696
+PAIRCOUNT pairs 11133126 entries 15689686
+PAIRCOUNT pairs 11564280 entries 16275166
+PAIRCOUNT pairs 11168428 entries 15701888
+PAIRCOUNT pairs 11370438 entries 16009256
+PAIRCOUNT pairs 11114012 entries 15649890
+PAIRCOUNT pairs 11444654 entries 16115930
+PAIRCOUNT pairs 10902278 entries 15370246
+PAIRCOUNT pairs 11017039 entries 15536240
+PAIRCOUNT pairs 10852606 entries 15336852
+PAIRCOUNT pairs 10867994 entries 15293226
+PAIRCOUNT pairs 10833918 entries 15277290
+PAIRCOUNT pairs 11298860 entries 15918258
+PAIRCOUNT pairs 11093540 entries 15624914
+PAIRCOUNT pairs 11085355 entries 15644964
