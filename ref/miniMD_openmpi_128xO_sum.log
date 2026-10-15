@@ -1,0 +1,451 @@
+S=C=A=N: Wed Oct 14 08:49:46 2026: Collect start
+/software/kp920-RL8/Stages/2024/software/OpenMPI/5.0.3-GCC-14.1.0/bin/mpirun -np 128 ./miniMD_openmpi
+[1791967788.985186] [dev:1953765:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967788.985491] [dev:1953765:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967788.985582] [dev:1953765:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.026737] [dev:1953771:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.027142] [dev:1953771:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.027235] [dev:1953771:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.080258] [dev:1953763:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.080571] [dev:1953763:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.080659] [dev:1953763:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.154403] [dev:1953766:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.154702] [dev:1953766:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.154791] [dev:1953766:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.161765] [dev:1953768:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.162058] [dev:1953768:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.162149] [dev:1953768:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.180382] [dev:1953767:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.180743] [dev:1953767:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.180834] [dev:1953767:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.187864] [dev:1953769:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.188153] [dev:1953769:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.188241] [dev:1953769:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.208056] [dev:1953762:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.208384] [dev:1953762:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.208493] [dev:1953762:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.231105] [dev:1953782:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.231396] [dev:1953782:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.231485] [dev:1953782:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.289449] [dev:1953774:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.289865] [dev:1953774:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.289952] [dev:1953774:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.313655] [dev:1953770:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.313935] [dev:1953770:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.314023] [dev:1953770:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.415007] [dev:1953773:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.415302] [dev:1953773:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.415390] [dev:1953773:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.431576] [dev:1953772:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.431861] [dev:1953772:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.431948] [dev:1953772:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.441771] [dev:1953779:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.442124] [dev:1953779:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.442213] [dev:1953779:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.444786] [dev:1953786:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.445199] [dev:1953786:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.445288] [dev:1953786:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.455149] [dev:1953778:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.455556] [dev:1953778:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.455645] [dev:1953778:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.470088] [dev:1953784:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.470377] [dev:1953784:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.470464] [dev:1953784:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.486478] [dev:1953780:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.486892] [dev:1953780:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.486993] [dev:1953780:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.496244] [dev:1953777:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.496555] [dev:1953777:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.496643] [dev:1953777:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.647150] [dev:1953785:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.647455] [dev:1953785:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.647543] [dev:1953785:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.684108] [dev:1953852:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.684415] [dev:1953852:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.684504] [dev:1953852:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.699994] [dev:1953775:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.700361] [dev:1953775:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.700450] [dev:1953775:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.732452] [dev:1953869:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.732775] [dev:1953869:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.732868] [dev:1953869:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.733737] [dev:1953787:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.734028] [dev:1953787:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.734117] [dev:1953787:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.736436] [dev:1953781:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.736728] [dev:1953781:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.736816] [dev:1953781:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.739979] [dev:1953849:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.740274] [dev:1953849:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.740363] [dev:1953849:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.747722] [dev:1953790:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.748037] [dev:1953790:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.748128] [dev:1953790:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.748952] [dev:1953848:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.749247] [dev:1953848:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.749335] [dev:1953848:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.755797] [dev:1953846:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.756159] [dev:1953846:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.756248] [dev:1953846:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.756508] [dev:1953851:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.756817] [dev:1953851:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.756908] [dev:1953851:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.757118] [dev:1953844:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.757415] [dev:1953844:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.757506] [dev:1953844:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.758752] [dev:1953776:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.759074] [dev:1953776:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.759166] [dev:1953776:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.759602] [dev:1953788:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.759898] [dev:1953788:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.759988] [dev:1953788:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.762847] [dev:1953783:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.763143] [dev:1953783:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.763232] [dev:1953783:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.768430] [dev:1953874:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.768761] [dev:1953874:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.768857] [dev:1953874:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.770145] [dev:1953904:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.770475] [dev:1953904:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.770572] [dev:1953904:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.772151] [dev:1953843:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.772434] [dev:1953843:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.772520] [dev:1953843:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.780029] [dev:1953850:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.780465] [dev:1953850:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.780554] [dev:1953850:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.780715] [dev:1953903:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.781036] [dev:1953903:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.781131] [dev:1953903:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.791278] [dev:1953882:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.791706] [dev:1953882:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.791799] [dev:1953882:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.791825] [dev:1953789:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.792195] [dev:1953789:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.792284] [dev:1953789:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.797764] [dev:1953876:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.798072] [dev:1953876:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.798162] [dev:1953876:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.800399] [dev:1953842:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.800685] [dev:1953842:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.800772] [dev:1953842:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.802350] [dev:1953845:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.802656] [dev:1953845:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.802745] [dev:1953845:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.811312] [dev:1953847:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.811620] [dev:1953847:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.811707] [dev:1953847:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.812771] [dev:1953919:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.813151] [dev:1953919:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.813243] [dev:1953919:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.831561] [dev:1953853:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.831934] [dev:1953853:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.832021] [dev:1953853:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.833558] [dev:1953905:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.834094] [dev:1953905:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.834188] [dev:1953905:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967789.834234] [dev:1953902:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967789.834599] [dev:1953902:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967789.834693] [dev:1953902:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.081242] [dev:1953894:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.081560] [dev:1953894:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.081655] [dev:1953894:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.128378] [dev:1953916:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.128690] [dev:1953916:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.128786] [dev:1953916:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.170775] [dev:1953883:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.171192] [dev:1953883:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.171286] [dev:1953883:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.190706] [dev:1953895:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.191017] [dev:1953895:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.191112] [dev:1953895:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.221332] [dev:1953907:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.221695] [dev:1953907:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.221794] [dev:1953907:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.226998] [dev:1953870:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.227329] [dev:1953870:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.227425] [dev:1953870:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.249643] [dev:1953907:0]        ib_iface.c:1090 UCX  ERROR iface=0x18c6f080: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1791967791.250509] [dev:1953911:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.250821] [dev:1953911:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.250917] [dev:1953911:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.253774] [dev:1953914:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.254124] [dev:1953914:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.254221] [dev:1953914:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.255371] [dev:1953887:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.255680] [dev:1953887:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.255777] [dev:1953887:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[dev.guoehi.cluster:1953907] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.282809] [dev:1953918:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.283174] [dev:1953918:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.283269] [dev:1953918:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.294674] [dev:1953912:0]        ib_iface.c:1090 UCX  ERROR iface=0x4ea8c40: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1791967791.296205] [dev:1953912:0]         ud_mlx5.c:935  UCX  ERROR md=0x4ecb2a0: failed to create UD QP TX wr:128 sge:2 inl:0 RX wr:128 sge:1: Cannot allocate memory
+[1791967791.303292] [dev:1953888:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.303688] [dev:1953888:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.303785] [dev:1953888:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.310518] [dev:1953890:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.310844] [dev:1953890:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.310937] [dev:1953890:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.317131] [dev:1953888:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953888] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.322605] [dev:1953866:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.323309] [dev:1953866:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.323322] [dev:1953896:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.323405] [dev:1953866:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.323723] [dev:1953896:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.323818] [dev:1953896:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.323883] [dev:1953890:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953890] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.346892] [dev:1953908:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.347214] [dev:1953908:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.347309] [dev:1953908:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.350513] [dev:1953897:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.350819] [dev:1953897:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.350914] [dev:1953897:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.352671] [dev:1953866:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953866] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.366313] [dev:1953881:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.366740] [dev:1953881:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.366835] [dev:1953881:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.381010] [dev:1953899:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.381432] [dev:1953899:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.381529] [dev:1953899:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.387021] [dev:1953910:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.387511] [dev:1953910:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.387606] [dev:1953910:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.388727] [dev:1953893:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.389196] [dev:1953893:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.389197] [dev:1953881:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.389289] [dev:1953893:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[dev.guoehi.cluster:1953881] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.396794] [dev:1953899:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953899] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.400841] [dev:1953915:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.400910] [dev:1953901:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.401276] [dev:1953915:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.401335] [dev:1953901:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.401373] [dev:1953915:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.401433] [dev:1953901:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.402947] [dev:1953898:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.403271] [dev:1953898:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.403366] [dev:1953898:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.426645] [dev:1953892:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.426645] [dev:1953917:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.427115] [dev:1953892:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.427127] [dev:1953917:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.427212] [dev:1953892:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.427224] [dev:1953917:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.432796] [dev:1953879:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.433113] [dev:1953879:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.433207] [dev:1953879:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.443378] [dev:1953898:0]        ib_iface.c:1090 UCX  ERROR iface=0x59fef40: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1791967791.446248] [dev:1953891:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.446558] [dev:1953891:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.446654] [dev:1953891:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[dev.guoehi.cluster:1953898] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.459197] [dev:1953892:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953892] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.461302] [dev:1953879:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953879] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.474432] [dev:1953867:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.474744] [dev:1953867:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.474839] [dev:1953867:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.483100] [dev:1953873:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.483686] [dev:1953873:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.483782] [dev:1953873:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.486795] [dev:1953861:0]        ib_iface.c:1090 UCX  ERROR iface=0x3130d060: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1791967791.488361] [dev:1953861:0]         ud_mlx5.c:935  UCX  ERROR md=0x311647a0: failed to create UD QP TX wr:128 sge:2 inl:0 RX wr:128 sge:1: Cannot allocate memory
+[1791967791.494277] [dev:1953900:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.494595] [dev:1953900:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.494691] [dev:1953900:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.499045] [dev:1953863:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.499697] [dev:1953863:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.499787] [dev:1953863:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.500546] [dev:1953854:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.501204] [dev:1953854:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.501296] [dev:1953854:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.503702] [dev:1953884:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.504415] [dev:1953884:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.504508] [dev:1953884:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.507263] [dev:1953880:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.507691] [dev:1953880:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.507783] [dev:1953880:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.520982] [dev:1953868:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.521344] [dev:1953868:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.521442] [dev:1953868:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.527084] [dev:1953909:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.527396] [dev:1953909:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.527490] [dev:1953909:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.533003] [dev:1953906:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.533633] [dev:1953906:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.533726] [dev:1953906:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.534401] [dev:1953861:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953861] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.534996] [dev:1953864:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.535558] [dev:1953864:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.535655] [dev:1953864:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.538538] [dev:1953873:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.538748] [dev:1953900:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953873] pml_ucx.c:313  Error: Failed to create UCP worker
+[dev.guoehi.cluster:1953900] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.539860] [dev:1953855:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.540246] [dev:1953855:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.540339] [dev:1953855:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.543082] [dev:1953863:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953863] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.546773] [dev:1953884:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953884] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.560043] [dev:1953909:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.560083] [dev:1953868:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953909] pml_ucx.c:313  Error: Failed to create UCP worker
+[dev.guoehi.cluster:1953868] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.567429] [dev:1953854:0]        ib_iface.c:1090 UCX  ERROR iface=0x34aef080: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1791967791.569993] [dev:1953855:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953855] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.571728] [dev:1953864:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953864] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.572607] [dev:1953862:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.572909] [dev:1953862:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.573004] [dev:1953862:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.575619] [dev:1953875:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.576007] [dev:1953875:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.576102] [dev:1953875:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.578350] [dev:1953860:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.578667] [dev:1953860:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.578762] [dev:1953860:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[dev.guoehi.cluster:1953854] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.594517] [dev:1953862:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953862] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.597263] [dev:1953872:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.597761] [dev:1953872:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.597856] [dev:1953872:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.600199] [dev:1953860:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.600200] [dev:1953875:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953860] pml_ucx.c:313  Error: Failed to create UCP worker
+[dev.guoehi.cluster:1953875] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.602337] [dev:1953871:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.602929] [dev:1953871:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.603023] [dev:1953871:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.606499] [dev:1953885:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.607085] [dev:1953885:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.607183] [dev:1953885:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.610806] [dev:1953865:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.611127] [dev:1953865:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.611222] [dev:1953865:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.614085] [dev:1953872:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953872] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.615821] [dev:1953856:0]        ib_iface.c:1090 UCX  ERROR iface=0x1e76d060: failed to create UD QP TX wr:256 sge:6 inl:64 resp:0 RX wr:4096 sge:1 resp:0: Cannot allocate memory failed: Cannot allocate memory
+[1791967791.617069] [dev:1953913:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.617214] [dev:1953856:0]         ud_mlx5.c:935  UCX  ERROR md=0x1e5c47a0: failed to create UD QP TX wr:128 sge:2 inl:0 RX wr:128 sge:1: Cannot allocate memory
+[1791967791.617696] [dev:1953913:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.617790] [dev:1953913:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.619032] [dev:1953871:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953871] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.631799] [dev:1953865:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953865] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.638731] [dev:1953889:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.639000] [dev:1953856:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.639031] [dev:1953913:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.639056] [dev:1953889:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.639156] [dev:1953889:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[dev.guoehi.cluster:1953856] pml_ucx.c:313  Error: Failed to create UCP worker
+[dev.guoehi.cluster:1953913] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.643059] [dev:1953878:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.643370] [dev:1953878:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.643466] [dev:1953878:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.651861] [dev:1953889:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953889] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.653849] [dev:1953878:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953878] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.671729] [dev:1953859:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.672051] [dev:1953859:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.672144] [dev:1953859:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.681932] [dev:1953859:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953859] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.701623] [dev:1953858:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.701919] [dev:1953858:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.702015] [dev:1953858:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.707948] [dev:1953858:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953858] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.726737] [dev:1953877:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.727046] [dev:1953877:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.727142] [dev:1953877:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.733468] [dev:1953877:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953877] pml_ucx.c:313  Error: Failed to create UCP worker
+[1791967791.735032] [dev:1953857:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[1791967791.735341] [dev:1953857:0]        ib_iface.c:1138 UCX  ERROR ibv_create_cq(cqe=256) failed: Invalid argument
+[1791967791.735436] [dev:1953857:0]      ib_mlx5_dv.c:63   UCX  ERROR mlx5_0: ibv_create_cq() failed: Invalid argument
+[1791967791.741310] [dev:1953857:0]         ib_mlx5.c:126  UCX  ERROR mlx5_0: mlx5dv_create_cq(cqe=4096) failed: Invalid argument
+[dev.guoehi.cluster:1953857] pml_ucx.c:313  Error: Failed to create UCP worker
+[dev.guoehi.cluster:1953857] [[10954,1],73] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953907] [[10954,1],117] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953890] [[10954,1],101] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953879] [[10954,1],91] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953892] [[10954,1],103] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953888] [[10954,1],100] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953866] [[10954,1],77] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953899] [[10954,1],109] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953898] [[10954,1],108] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953875] [[10954,1],88] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953881] [[10954,1],93] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953873] [[10954,1],86] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953863] [[10954,1],71] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953909] [[10954,1],119] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953877] [[10954,1],89] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953900] [[10954,1],110] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953861] [[10954,1],75] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953884] [[10954,1],95] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953913] [[10954,1],123] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953878] [[10954,1],90] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953854] [[10954,1],69] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953855] [[10954,1],70] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953868] [[10954,1],79] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953862] [[10954,1],72] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953865] [[10954,1],76] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953860] [[10954,1],74] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953856] [[10954,1],68] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953872] [[10954,1],87] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953871] [[10954,1],84] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953864] [[10954,1],64] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953858] [[10954,1],67] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953889] [[10954,1],98] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+[dev.guoehi.cluster:1953859] [[10954,1],66] selected pml ob1, but peer [[10954,1],0] on dev selected pml ucx
+--------------------------------------------------------------------------
+MPI_INIT has failed because at least one MPI process is unreachable
+from another.  This *usually* means that an underlying communication
+plugin -- such as a BTL or an MTL -- has either not loaded or not
+allowed itself to be used.  Your MPI job will now abort.
+
+You may wish to try to narrow down the problem;
+
+ * Check the output of ompi_info to see which BTL/MTL plugins are
+   available.
+ * Run your application with MPI_THREAD_SINGLE.
+ * Set the MCA parameter btl_base_verbose to 100 (or mtl_base_verbose,
+   if using MTL-based communications) to see exactly which
+   communication plugins were considered and/or discarded.
+--------------------------------------------------------------------------
+ --------------------------------------------------------------------------
+It looks like MPI_INIT failed for some reason; your parallel process is
+likely to abort.  There are many reasons that a parallel process can
+fail during MPI_INIT; some of which are due to configuration or environment
+problems.  This failure appears to be an internal failure; here's some
+additional information (which may only be relevant to an Open MPI
+developer):
+
+  ompi_mpi_init: ompi_mpi_instance_init failed
+  --> Returned "Unreachable" (-12) instead of "Success" (0)
+--------------------------------------------------------------------------
+ [dev:00000] *** An error occurred in MPI_Init
+[dev:00000] *** reported by process [717881345,281470681743458]
+[dev:00000] *** on a NULL communicator
+[dev:00000] *** Unknown error
+[dev:00000] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[dev:00000] ***    and MPI will try to terminate your MPI job as well)
+--------------------------------------------------------------------------
+prterun has exited due to process rank 98 with PID 0 on node dev calling
+"abort". This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+--------------------------------------------------------------------------
+ S=C=A=N: Wed Oct 14 08:49:52 2026: Collect done (status=0) 6s

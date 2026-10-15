@@ -1,0 +1,6 @@
+SCOREP_REGION_NAMES_BEGIN
+  EXCLUDE
+    *Atom::pack_border*
+    *Atom::unpack_border*
+    *random*
+SCOREP_REGION_NAMES_END

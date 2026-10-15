@@ -1,0 +1,53 @@
+S=C=A=N: Wed Oct 14 13:04:50 2026: Collect start
+/usr/bin/srun ./miniMD_openmpi -s 64 -n 1000
+# Create System:
+# Done .... 
+# miniMD-Reference 2.0 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 128
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 1048576
+	# Atom types: 4
+	# System size: 107.49 107.49 107.49 (unit cells: 64 64 64)
+	# Density: 0.844200
+	# Force cutoff: 2.500000
+	# Timestep size: 0.005000
+# Technical Settings: 
+	# Neigh cutoff: 2.800000
+	# Half neighborlists: 1
+	# Neighbor bins: 53 53 53
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+# Starting dynamics ...
+# Timestep T U P Time
+0 1.440000e+00 -6.773368e+00 -5.019670e+00  0.000
+100 8.187390e-01 -5.848396e+00 -2.165620e-01  1.038
+200 7.779352e-01 -5.789259e+00 6.088126e-02  2.039
+300 7.641949e-01 -5.768839e+00 1.745501e-01  3.033
+400 7.545339e-01 -5.754316e+00 2.534204e-01  4.020
+500 7.470332e-01 -5.742985e+00 3.273456e-01  4.995
+600 7.378479e-01 -5.728944e+00 4.111668e-01  5.967
+700 7.290948e-01 -5.715499e+00 4.890803e-01  6.952
+800 7.218250e-01 -5.704314e+00 5.545038e-01  7.931
+900 7.168980e-01 -5.696582e+00 6.003796e-01  8.906
+1000 7.113735e-01 -5.688051e+00 6.437740e-01  9.879
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natoms t_total t_force t_neigh t_comm t_other performance perf/thread grep_string t_extra
+128 1 1000 1048576 9.879287 7.111875 0.794999 1.706531 0.265882 106138832.209926 829209.626640 PERF_SUMMARY 0.140713
+
+
+S=C=A=N: Wed Oct 14 13:05:13 2026: Collect done (status=0) 23s

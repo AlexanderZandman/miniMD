@@ -1,0 +1,20 @@
+S=C=A=N: Wed Oct 14 13:05:13 2026: Analyze start
+/usr/bin/srun /home/azandman/opt/scorep-scalasca/bin/scout.hyb ./scorep_miniMD_openmpi_128x1_trace/traces.otf2
+SCOUT   (Scalasca 2.6.2)
+Copyright (c) 1998-2025 Forschungszentrum Juelich GmbH
+Copyright (c) 2014-2022 RWTH Aachen University
+Copyright (c) 2009-2014 German Research School for Simulation Sciences GmbH
+
+Analyzing experiment archive ./scorep_miniMD_openmpi_128x1_trace/traces.otf2
+
+Opening experiment archive ... done (0.004s).
+Reading definition data    ... done (0.003s).
+Reading event trace data   ... done (0.114s).
+Preprocessing              ... done (0.053s).
+Analyzing trace data       ... done (20.300s).
+Writing analysis report    ... done (0.312s).
+
+Max. memory usage         : 192.625MB
+
+Total processing time     : 20.812s
+S=C=A=N: Wed Oct 14 13:05:44 2026: Analyze done (status=0) 31s

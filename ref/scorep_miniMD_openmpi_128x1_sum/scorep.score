@@ -1,0 +1,203 @@
+
+Estimated aggregate size of event trace:                   4047MB
+Estimated requirements for largest trace buffer (max_buf): 32MB
+Estimated memory requirements (SCOREP_TOTAL_MEMORY):       34MB
+(hint: When tracing set SCOREP_TOTAL_MEMORY=34MB to avoid intermediate flushes
+ or reduce requirements using USR regions filters.)
+
+flt     type max_buf[B]      visits time[s] time[%] time/visit[us]  region
+         ALL 33,300,458 158,718,250 2038.02   100.0          12.84  ALL
+         USR 28,965,456 141,848,234  949.09    46.6           6.69  USR
+         OMP  2,340,157  11,519,872  203.11    10.0          17.63  OMP
+         MPI  1,246,348   1,665,408  873.67    42.9         524.60  MPI
+         COM    748,436   3,684,608   12.15     0.6           3.30  COM
+      SCOREP         61         128    0.00     0.0          32.72  SCOREP
+
+         USR 12,150,606  59,160,841    6.59     0.3           0.11  int Atom::pack_border(int, MMD_float*, int*)
+         USR 12,081,342  59,160,841    6.53     0.3           0.11  int Atom::unpack_border(int, MMD_float*)
+         USR  3,833,856  18,874,368    2.01     0.1           0.11  double random(int*)
+         MPI  1,241,856   1,655,808  124.97     6.1          75.47  MPI_Sendrecv
+         USR    212,992   1,048,576    0.19     0.0           0.18  void Atom::addatom(MMD_float, MMD_float, MMD_float, MMD_float, MMD_float, MMD_float)
+         USR    209,170     940,185    0.11     0.0           0.12  int Atom::unpack_exchange(int, MMD_float*)
+         USR    208,416     940,185    0.11     0.0           0.12  int Atom::pack_exchange(int, MMD_float*)
+         USR    204,880     920,422    0.11     0.0           0.12  void Atom::copy(int, int)
+         COM    156,312     769,536    0.27     0.0           0.36  void Atom::pack_reverse(int, int, MMD_float*)
+         COM    156,312     769,536    0.25     0.0           0.32  void Atom::unpack_reverse(int, int*, MMD_float*)
+         OMP    156,312     769,536    0.44     0.0           0.57  !$omp master @comm.cpp:339
+         OMP    156,312     769,536    0.49     0.0           0.64  !$omp barrier @comm.cpp:351
+         OMP    156,312     769,536    7.81     0.4          10.15  !$omp for @atom.cpp:176
+         OMP    156,312     769,536    0.59     0.0           0.77  !$omp implicit barrier @atom.cpp:181
+         OMP    156,312     769,536   17.32     0.8          22.50  !$omp for @atom.cpp:188
+         OMP    156,312     769,536    0.37     0.0           0.49  !$omp implicit barrier @atom.cpp:194
+         COM    148,200     729,600    0.26     0.0           0.35  void Atom::pack_comm(int, int*, MMD_float*, int*)
+         COM    148,200     729,600    0.21     0.0           0.29  void Atom::unpack_comm(int, int, MMD_float*)
+         OMP    148,200     729,600    0.31     0.0           0.43  !$omp master @comm.cpp:301
+         OMP    148,200     729,600    0.53     0.0           0.73  !$omp barrier @comm.cpp:311
+         OMP    148,200     577,600    7.76     0.4          13.44  !$omp for @atom.cpp:141
+         OMP    148,200     577,600    0.32     0.0           0.55  !$omp implicit barrier @atom.cpp:147
+         OMP    148,200     729,600   15.38     0.8          21.08  !$omp for @atom.cpp:164
+         OMP    148,200     729,600    0.44     0.0           0.61  !$omp implicit barrier @atom.cpp:169
+         USR     79,300     390,400    0.41     0.0           1.04  void Timer::stamp(int)
+         OMP     74,100     152,000    1.98     0.1          13.03  !$omp for @atom.cpp:150
+         OMP     74,100     152,000    0.10     0.0           0.66  !$omp implicit barrier @atom.cpp:156
+         USR     26,052     128,256    0.36     0.0           2.82  virtual void ForceLJ::compute(Atom&, Neighbor&, Comm&, int)
+         COM     26,052     128,256    0.09     0.0           0.74  void Thermo::compute(MMD_int, Atom&, Neighbor&, Force*, Timer&, Comm&)
+         COM     26,052     128,256    0.49     0.0           3.85  void Comm::reverse_communicate(Atom&)
+         COM     26,000     128,000    0.06     0.0           0.48  void Integrate::initialIntegrate()
+         COM     26,000     128,000    0.08     0.0           0.61  void Integrate::finalIntegrate()
+         USR     26,000     128,000    0.07     0.0           0.55  void Timer::stamp()
+         OMP     26,000     128,000   14.38     0.7         112.33  !$omp for @integrate.cpp:48
+         OMP     26,000     128,000    0.13     0.0           1.04  !$omp implicit barrier @integrate.cpp:56
+         OMP     26,000     128,000   14.99     0.7         117.11  !$omp for @integrate.cpp:61
+         OMP     26,000     128,000    0.13     0.0           0.99  !$omp implicit barrier @integrate.cpp:66
+         OMP     26,000     128,000    0.10     0.0           0.77  !$omp barrier @integrate.cpp:90
+         OMP     26,000     128,000    0.10     0.0           0.81  !$omp master @integrate.cpp:100
+         OMP     26,000     128,000    0.35     0.0           2.76  !$omp master @integrate.cpp:185
+         OMP     26,000     128,000    0.23     0.0           1.79  !$omp master @integrate.cpp:191
+         OMP     26,000     128,000    0.09     0.0           0.71  !$omp barrier @integrate.cpp:199
+         USR     25,740     126,720  918.85    45.1        7251.00  void ForceLJ::compute_halfneigh(Atom&, Neighbor&, int) [with int EVFLAG = 0; int GHOST_NEWTON = 1]
+         COM     24,700     121,600    0.46     0.0           3.82  void Comm::communicate(Atom&)
+         OMP     24,700     121,600    0.26     0.0           2.15  !$omp master @integrate.cpp:106
+         OMP      7,956      39,168    0.02     0.0           0.45  !$omp for @comm.cpp:764
+         OMP      7,956      39,168    0.02     0.0           0.42  !$omp implicit barrier @comm.cpp:768
+         OMP      7,956      39,168    1.63     0.1          41.56  !$omp for @comm.cpp:774
+         OMP      7,956      39,168    0.02     0.0           0.55  !$omp implicit barrier @comm.cpp:784
+         OMP      7,956      39,168    0.02     0.0           0.52  !$omp barrier @comm.cpp:788
+         OMP      7,956      39,168    0.01     0.0           0.16  !$omp master @comm.cpp:790
+         OMP      7,956      39,168    0.02     0.0           0.39  !$omp barrier @comm.cpp:803
+         OMP      7,956      39,168    0.02     0.0           0.57  !$omp barrier @comm.cpp:810
+         OMP      7,956      39,168    0.03     0.0           0.65  !$omp master @comm.cpp:817
+         OMP      7,956      39,168    0.03     0.0           0.73  !$omp barrier @comm.cpp:842
+         OMP      7,956      39,168    6.68     0.3         170.55  !$omp for @comm.cpp:846
+         OMP      7,956      39,168    0.02     0.0           0.51  !$omp implicit barrier @comm.cpp:848
+         OMP      7,956      39,168    0.01     0.0           0.20  !$omp master @comm.cpp:854
+         OMP      7,956      39,168    0.02     0.0           0.38  !$omp barrier @comm.cpp:865
+         OMP      3,978      19,584    0.01     0.0           0.57  !$omp master @comm.cpp:406
+         OMP      3,978      19,584    0.01     0.0           0.44  !$omp barrier @comm.cpp:428
+         OMP      3,978      19,584    0.01     0.0           0.37  !$omp for @comm.cpp:431
+         OMP      3,978      19,584    0.01     0.0           0.41  !$omp implicit barrier @comm.cpp:436
+         OMP      3,978      19,584    0.47     0.0          23.78  !$omp for @comm.cpp:438
+         OMP      3,978      19,584    0.01     0.0           0.54  !$omp implicit barrier @comm.cpp:450
+         OMP      3,978      19,584    0.01     0.0           0.49  !$omp barrier @comm.cpp:454
+         OMP      3,978      19,584    0.00     0.0           0.20  !$omp master @comm.cpp:456
+         OMP      3,978      19,584    0.01     0.0           0.42  !$omp barrier @comm.cpp:468
+         OMP      3,978      19,584    0.01     0.0           0.45  !$omp barrier @comm.cpp:478
+         OMP      3,978      19,584    0.00     0.0           0.15  !$omp master @comm.cpp:480
+         OMP      3,978      19,584    0.01     0.0           0.44  !$omp barrier @comm.cpp:489
+         OMP      3,978      19,584    0.01     0.0           0.49  !$omp barrier @comm.cpp:512
+         OMP      3,978      19,584    0.02     0.0           1.01  !$omp master @comm.cpp:513
+         OMP      3,978      19,584    0.01     0.0           0.56  !$omp barrier @comm.cpp:555
+         OMP      3,978      19,584    0.02     0.0           0.87  !$omp for @comm.cpp:559
+         OMP      3,978      19,584    0.01     0.0           0.45  !$omp implicit barrier @comm.cpp:565
+         OMP      3,978      19,584    0.01     0.0           0.45  !$omp barrier @comm.cpp:569
+         OMP      3,978      19,584    0.00     0.0           0.18  !$omp master @comm.cpp:571
+         OMP      3,978      19,584    0.01     0.0           0.42  !$omp barrier @comm.cpp:582
+         OMP      3,978      19,584    0.12     0.0           6.26  !$omp for @comm.cpp:586
+         OMP      3,978      19,584    0.01     0.0           0.39  !$omp implicit barrier @comm.cpp:592
+         MPI      2,720       5,120    0.92     0.0         180.30  MPI_Allreduce
+         OMP      2,652      13,056    0.01     0.0           0.51  !$omp barrier @neighbor.cpp:230
+         OMP      2,652      13,056    0.01     0.0           0.46  !$omp barrier @neighbor.cpp:232
+         OMP      2,652      13,056    0.02     0.0           1.50  !$omp for @neighbor.cpp:233
+         OMP      2,652      13,056    0.01     0.0           0.49  !$omp implicit barrier @neighbor.cpp:234
+         OMP      2,652      13,056    5.07     0.2         388.08  !$omp for @neighbor.cpp:237
+         OMP      2,652      13,056    0.01     0.0           0.81  !$omp implicit barrier @neighbor.cpp:251
+         OMP      2,652      13,056    0.00     0.0           0.37  !$omp master @neighbor.cpp:255
+         COM      2,626      12,928    0.02     0.0           1.38  void Neighbor::binatoms(Atom&, int)
+         OMP      2,626      12,928    0.01     0.0           0.90  !$omp barrier @neighbor.cpp:227
+         OMP      2,626      12,928    0.01     0.0           0.40  !$omp barrier @neighbor.cpp:266
+         USR      1,612       7,936    0.00     0.0           0.12  MMD_float Neighbor::bindist(int, int, int)
+         COM      1,326       6,528    0.01     0.0           1.86  void Atom::pbc()
+         COM      1,326       6,528    0.01     0.0           1.82  void Neighbor::build(Atom&)
+         COM      1,326       6,528    0.30     0.0          46.28  void Comm::exchange(Atom&)
+         COM      1,326       6,528    6.78     0.3        1038.68  void Comm::borders(Atom&)
+         OMP      1,326       6,528    0.02     0.0           2.98  !$omp master @comm.cpp:717
+         OMP      1,326       6,528    0.19     0.0          29.61  !$omp for @atom.cpp:108
+         OMP      1,326       6,528    0.00     0.0           0.72  !$omp implicit barrier @atom.cpp:121
+         OMP      1,326       6,528    0.01     0.0           1.34  !$omp master @neighbor.cpp:86
+         OMP      1,326       6,528    0.00     0.0           0.57  !$omp barrier @neighbor.cpp:106
+         OMP      1,326       6,528    0.00     0.0           0.61  !$omp barrier @neighbor.cpp:118
+         OMP      1,326       6,528    0.00     0.0           0.45  !$omp barrier @neighbor.cpp:121
+         OMP      1,326       6,528    0.00     0.0           0.45  !$omp barrier @neighbor.cpp:124
+         OMP      1,326       6,528  100.65     4.9       15418.63  !$omp for @neighbor.cpp:126
+         OMP      1,326       6,528    0.04     0.0           6.29  !$omp implicit barrier @neighbor.cpp:191
+         OMP      1,326       6,528    0.02     0.0           2.38  !$omp barrier @neighbor.cpp:211
+         COM      1,300       6,400    0.01     0.0           1.61  void Atom::sort(Neighbor&)
+         USR      1,300       6,400    0.00     0.0           0.36  void Timer::stamp_extra_start()
+         USR      1,300       6,400    0.01     0.0           0.80  void Timer::stamp_extra_stop(int)
+         OMP      1,300       6,400    0.00     0.0           0.50  !$omp barrier @atom.cpp:359
+         OMP      1,300       6,400    0.03     0.0           5.17  !$omp master @atom.cpp:367
+         OMP      1,300       6,400    0.00     0.0           0.61  !$omp barrier @atom.cpp:382
+         OMP      1,300       6,400    2.52     0.1         393.57  !$omp for @atom.cpp:390
+         OMP      1,300       6,400    0.01     0.0           1.77  !$omp implicit barrier @atom.cpp:405
+         OMP      1,300       6,400    0.00     0.0           0.35  !$omp master @atom.cpp:407
+         OMP      1,300       6,400    0.00     0.0           0.53  !$omp barrier @atom.cpp:420
+         OMP      1,300       6,400    0.01     0.0           1.71  !$omp master @integrate.cpp:154
+         OMP      1,300       6,400    0.01     0.0           2.12  !$omp master @integrate.cpp:162
+         OMP      1,300       6,400    0.00     0.0           0.50  !$omp barrier @integrate.cpp:172
+         OMP      1,300       6,400    0.04     0.0           5.95  !$omp master @integrate.cpp:178
+         MPI      1,020       1,920    0.08     0.0          42.94  MPI_Barrier
+         USR        312       1,536   13.67     0.7        8900.77  void ForceLJ::compute_halfneigh(Atom&, Neighbor&, int) [with int EVFLAG = 1; int GHOST_NEWTON = 1]
+         COM        312       1,536    0.00     0.0           2.26  MMD_float Thermo::temperature(Atom&)
+         COM        312       1,536    0.00     0.0           2.00  void Timer::barrier_stop(int)
+         OMP        312       1,536    0.00     0.0           1.11  !$omp barrier @thermo.cpp:147
+         OMP        312       1,536    0.04     0.0          28.95  !$omp for @thermo.cpp:151
+         OMP        312       1,536    0.00     0.0           0.68  !$omp implicit barrier @thermo.cpp:157
+         OMP        312       1,536    0.00     0.0           0.42  !$omp atomic @thermo.cpp:159
+         OMP        312       1,536    0.00     0.0           0.84  !$omp barrier @thermo.cpp:162
+         OMP        312       1,536    0.00     0.0           0.74  !$omp master @thermo.cpp:165
+         COM        286       1,408    0.00     0.0           0.64  MMD_float Thermo::energy(Atom&, Neighbor&, Force*)
+         COM        286       1,408    0.00     0.0           0.42  MMD_float Thermo::pressure(MMD_float, Force*)
+         OMP        286       1,408    0.00     0.0           2.19  !$omp barrier @thermo.cpp:85
+         OMP        286       1,408    0.00     0.0           1.16  !$omp master @thermo.cpp:87
+         USR        260       1,280    0.00     0.0           0.78  void Atom::destroy_2d_MMD_float_array(MMD_float*)
+         MPI        234       1,152    0.00     0.0           0.23  MPI_Cart_shift
+         USR        156         768    0.01     0.0           9.96  MMD_float* Atom::create_2d_MMD_float_array(int, int)
+         USR        130         640    0.00     0.0           2.05  void Comm::growlist(int, int)
+         USR        104         512    0.00     0.0           0.45  MMD_float* Atom::realloc_2d_MMD_float_array(MMD_float*, int, int, int)
+         MPI        104         512    0.00     0.0           1.32  MPI_Comm_rank
+         OMP         87         128    0.00     0.0           9.25  !$omp parallel @ljs.cpp:451
+         OMP         87         128    0.00     0.0           2.67  !$omp parallel @ljs.cpp:465
+         OMP         87         128    0.40     0.0        3144.82  !$omp parallel @integrate.cpp:84
+         MPI         84         128    0.09     0.0         741.06  MPI_Cart_create
+         MPI         84         128    0.00     0.0          30.85  MPI_Comm_free
+         MPI         84         128    0.00     0.0          22.18  MPI_Finalize
+         MPI         84         128  747.59    36.7     5840569.32  MPI_Init
+         USR         78         384    0.00     0.0           0.89  void Atom::destroy_1d_int_array(int*)
+      SCOREP         61         128    0.00     0.0          32.72  miniMD_openmpi
+         USR         52         256    0.00     0.0           1.22  int* Atom::create_1d_int_array(int)
+         USR         52         256    0.00     0.0          10.38  void Comm::growsend(int)
+         USR         52         256    0.00     0.0           8.12  void Comm::growrecv(int)
+         MPI         52         256    0.00     0.0           0.63  MPI_Comm_size
+         COM         26         128    0.01     0.0         109.97  int main(int, char**)
+         COM         26         128    0.34     0.0        2671.73  int input(In&, const char*)
+         USR         26         128    0.00     0.0           0.38  Integrate::Integrate()
+         USR         26         128    0.00     0.0           0.38  Integrate::~Integrate()
+         USR         26         128    0.00     0.0           0.40  void Integrate::setup()
+         COM         26         128    0.00     0.0          20.69  void Integrate::run(Atom&, Force*, Neighbor&, Comm&, Thermo&, Timer&)
+         USR         26         128    0.00     0.0           0.45  Atom::Atom(int)
+         USR         26         128    0.00     0.0           1.40  Atom::~Atom()
+         USR         26         128    0.00     0.0           0.69  int* Atom::realloc_1d_int_array(int*, int, int)
+         USR         26         128    0.00     0.0           0.93  void Atom::growarray()
+         USR         26         128    0.00     0.0           0.38  ForceLJ::~ForceLJ()
+         USR         26         128    0.00     0.0           0.42  virtual void ForceLJ::setup()
+         USR         26         128    0.00     0.0          19.37  virtual ForceLJ::~ForceLJ()
+         USR         26         128    0.00     0.0           1.02  ForceLJ::ForceLJ(int)
+         USR         26         128    0.00     0.0           8.02  Neighbor::Neighbor(int)
+         USR         26         128    0.00     0.0           3.51  Neighbor::~Neighbor()
+         USR         26         128    0.00     0.0           8.92  int Neighbor::setup(Atom&)
+         USR         26         128    0.00     0.0           0.38  Thermo::Thermo()
+         USR         26         128    0.00     0.0           0.41  Thermo::~Thermo()
+         USR         26         128    0.00     0.0           1.99  void Thermo::setup(MMD_float, Integrate&, Atom&, int)
+         USR         26         128    0.00     0.0           2.11  Comm::Comm()
+         USR         26         128    0.00     0.0           0.50  Comm::~Comm()
+         COM         26         128    0.01     0.0          81.46  int Comm::setup(MMD_float, Atom&)
+         USR         26         128    0.00     0.0           0.35  Timer::Timer()
+         USR         26         128    0.00     0.0           0.63  Timer::~Timer()
+         COM         26         128    0.00     0.0           1.29  void Timer::barrier_start(int)
+         USR         26         128    0.05     0.0         395.10  void create_box(Atom&, int, int, int, double)
+         COM         26         128    2.45     0.1       19138.58  int create_atoms(Atom&, int, int, int, double)
+         COM         26         128    0.01     0.0          52.87  void create_velocity(double, Atom&, Thermo&)
+         MPI         26         128    0.00     0.0           0.91  MPI_Cart_get
+         OMP         26         128    0.00     0.0           3.43  !$omp implicit barrier @ljs.cpp:456
+         OMP         26         128    0.00     0.0           1.19  !$omp implicit barrier @ljs.cpp:468
+         OMP         26         128    0.00     0.0           2.21  !$omp implicit barrier @integrate.cpp:206
